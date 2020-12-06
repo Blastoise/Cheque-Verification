@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100vh;
+  width: 100vw;
+  background: url("./../img/background.jpg");
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  margin-top: 80px;
+}
+.cheque {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+}
+#account_number {
+  margin-bottom: 20px;
+  width: 400px;
+  height: 30px;
+  outline: none;
+  text-align: center;
+  border-radius: 30px;
+  border: 1px solid white;
+  background: none;
+  font-size: larger;
+  font-weight: 400;
+  color: white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.drop-zone {
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  border: 4px dashed #009578;
+  border-radius: 10px;
+}
+
+.drop-zone--over {
+  border-style: solid;
+}
+
+.drop-zone__input {
+  display: none;
+}
+
+.drop-zone__thumb {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #cccccc;
+  background-size: cover;
+  position: relative;
+}
+
+.drop-zone__thumb::after {
+  content: attr(data-label);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.75);
+  font-size: 14px;
+  text-align: center;
+}
+.submit {
+  width: 60%;
+  height: 45px;
+  margin-top: 30px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  border: 1px solid black;
+}
+.btn-grad:active {
+  transform: scale(0.4);
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #aa076b 0%,
+    #61045f 51%,
+    #aa076b 100%
+  );
+}
+.btn-grad {
+  transition: 0.5s;
+  background-size: 200% auto;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}

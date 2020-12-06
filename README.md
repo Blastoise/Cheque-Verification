@@ -46,7 +46,7 @@ Now install all of the required Python libraries required to run the code using 
 
 To do so, execute the following command:
 
-> cd cheque-verification && pip3 install -r requirements.txt
+> cd Cheque-Verification && cd cheque-verification && pip3 install -r requirements.txt
 
 Now we need to install all the required packages mentioned in **_package.json_** under **_cheque-verification-server_**.
 

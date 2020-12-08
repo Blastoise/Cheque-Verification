@@ -6,8 +6,6 @@ Using computer vision, siamese networks and optical character recognition(OCR) t
 
 ## Tech Stack
 
----
-
 - HTML
 - CSS
 - VANILLA JAVASCRIPT
@@ -22,15 +20,11 @@ Using computer vision, siamese networks and optical character recognition(OCR) t
 
 ## Getting Started
 
----
-
 Before we start the installation, first ensure that you have created a project on Google Cloud with **Vision API** enabled in it.
 To do so follow this link [Quick Start Guide](https://cloud.google.com/vision/docs/quickstart-client-libraries#client-libraries-install-python).
 Follow this guide till **Install the client library** section.
 
 ## Prerequisites
-
----
 
 Ensure that your system have the following softwares
 installed:
@@ -44,8 +38,6 @@ You can download them by clicking on the link.
 
 ## Installation
 
----
-
 First download the Github Repository into your desired folder by using the following command.
 
 > git clone https://github.com/Blastoise/Cheque-Verification.git
@@ -54,7 +46,7 @@ Now install all of the required Python libraries required to run the code using 
 
 To do so, execute the following command:
 
-> cd cheque-verification && pip3 install -r requirements.txt
+> cd Cheque-Verification && cd cheque-verification && pip3 install -r requirements.txt
 
 Now we need to install all the required packages mentioned in **_package.json_** under **_cheque-verification-server_**.
 
@@ -76,8 +68,6 @@ In Linux and MacOs, in general it is located at:
 
 ## Running the Application
 
----
-
 To run the application, first go into **cheque-verification-server** folder and execute the **index.js** file using NodeJS.
 
 To do so, execute the following (Assuming we are already in **cheque-verification-server** folder):
@@ -90,15 +80,11 @@ Note: Keep all the cheques inside **_cheque_images_** under **_cheque-verificati
 
 ## Authors
 
----
-
 - [Anil Muthigi](https://github.com/anilmuthigi)
 - [Ashutosh Kumar](https://github.com/Blastoise)
 - [Gaurav Bhagchandani](https://github.com/gauravbhag51)
 
 ## Important Links
-
----
 
 - For downloading the Signature Data on which we trained, you can follow the link below:
   https://cedar.buffalo.edu/NIJ/data/signatures.rar

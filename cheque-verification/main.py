@@ -31,7 +31,8 @@ micrCode = micr.MICR(imagePath)
 micrString = micrCode.extractMICR()
 
 # Micr Id (middle part of Micr)
-micrId = micrString.split(" ")[1]
+micrId = micrString.split(" ")
+micrId = micrId[1] + micrId[2]
 
 
 # Get Details of the Payer from Database
